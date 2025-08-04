@@ -1,2 +1,8 @@
 streamlit
-streamlit-authenticator==0.2.2
+streamlit-calendar
+plotly
+pandas
+bcrypt
+requests
+Flask
+gunicorn
