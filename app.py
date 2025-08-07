@@ -16,7 +16,7 @@ import requests # NOVO: Importa a biblioteca requests
 # --- URL DO BACKEND ---
 # ATENÇÃO: SUBSTITUA ESTA URL PELA URL REAL DO SEU SERVIÇO DE BACKEND NO RENDER
 # Exemplo: https://seu-backend-aqui.onrender.com
-BACKEND_URL = "https://seu-backend-aqui.onrender.com"
+BACKEND_URL = "https://quarto-livre-backend.onrender.com"
 
 # --- Configuração da Página Streamlit ---
 st.set_page_config(
@@ -1762,4 +1762,5 @@ elif st.session_state.page == "reservation_report" and st.session_state.logged_i
     reservation_report()
 else:
     st.session_state.page = "home"
+
     st.rerun()
